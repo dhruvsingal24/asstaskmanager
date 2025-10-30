@@ -8,11 +8,9 @@ interface TaskItem {
   isCompleted: boolean;
 }
 
-<<<<<<< HEAD
+
 const API_BASE_URL = 'https://assgntaskmanagerbackend.onrender.com/api/tasks';
-=======
-const API_BASE_URL = 'http://localhost:5225/api/tasks';
->>>>>>> ef880d0120dffabd9157a5a57b6a733145a53700
+
 
 const App: React.FC = () => {
   const [tasks, setTasks] = useState<TaskItem[]>([]);
